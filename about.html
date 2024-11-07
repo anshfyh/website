@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+            <div class="logo">Welcome To My Personal Website</div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="about-section">
+        <div class="about-container">
+            <div class="profile">
+                <img src="piaacantik.jpg" alt="Profile Image">
+            </div>
+            <div class="about-content">
+                <h1>About Me</h1>
+                <p class="description">I'm <strong>Ani Shofiyyah Zazqia</strong>, a student born in 2006 who comes from bangkalan madura. i'm currently studying the third semester of the informatics study program in the faculty of science and technology at bahaudin mudhary university. </p>
+                
+                <div class="info-section">
+                    <h2>Experience</h2>
+                    <ul>
+                        <li><strong>UKM</strong> Wimbar 2024</li>
+                        <li><strong>committee</strong> PKMBP Informatic 2024</li>
+                    </ul>
+                </div>
+
+                <div class="skills-section">
+                    <h2>Skills</h2>
+                    <div class="skills">
+                        <span>MS. Word</span>
+                        <span>MS. Excel</span>
+                        <span>Canva</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Adobe LR</span>
+                        
+                    </div>
+                </div>
+
+                <div class="contact-section">
+                    <h2>Contact</h2>
+                <ul class="tautan">
+                    <li>Email: zazqiaanishofiyyah@gmail.com</li>
+                    <li><a href="https://www.instagram.com/anshfyh.z?igsh=MWlkbjZuc3E0ZGd0Mg==">Instagram: @nshfyh.z</a></li>
+                </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

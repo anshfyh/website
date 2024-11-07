@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+            <div class="logo">Welcome To My Personal Website</div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="education">
+        <div class="container">
+            <h1 class="TN">My Education Journey</h1>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h2>SD Negeri 04 Kelbung </h2>
+                    <p>2011-2017</p>
+                </div>
+                <div class="timeline-item">
+                    <h2>SMP Negeri 02 Sepulu</h2>
+                    <p>2017-2020</p>
+                </div>
+                <div class="timeline-item">
+                    <h2>SMK Negeri 01 Sepulu Bangkalan</h2>
+                    <p>2020-2023. Majoring in Computer and Network Engineering</p>
+                </div>
+                <div class="timeline-item">
+                    <h2>Bachelor Degree</h2>
+                    <p>2023 - Now. Informatics major Faculty of Science and Technology</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

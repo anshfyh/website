@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+            <div class="logo">Welcome To My Personal Website</div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="content">
+            <h1>Hello, <br> I Am <span>Ani Shofiyyah Zazqia</span></h1>
+            <p>Mahasiswa semester tiga Informatika Fakultas Sains dan Teknologi Universitas Bahaudin Mudhary Madura</p>
+            <a href="contact.html" class="btn">Let's talk</a>
+        </div>
+        <div class="image">
+            <img src="piaww.png" alt="Profile Image">
+        </div>
+    </section>
+    
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
